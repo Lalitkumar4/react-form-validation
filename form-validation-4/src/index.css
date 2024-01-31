@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9e9e9;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 30px;
+}
+
+form {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.form-control {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 30px;
+}
+
+label {
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 10px 30px 10px 10px;
+  border: 1.8px solid rgb(49, 49, 49);
+  border-radius: 5px;
+}
+
+.form-control.checkbox div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form-control.checkbox label {
+  padding: 0;
+  font-size: small;
+}
+
+.form-control.checkbox .term.errorMsg {
+  padding-top: px;
+}
+
+.form-control .eyeBtn {
+  position: absolute;
+  right: 35px;
+  bottom: 15px;
+  width: 20px;
+}
+
+.errorMsg {
+  color: rgb(238, 91, 91);
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: rgb(36, 36, 36);
+}
